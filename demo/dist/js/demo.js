@@ -73,7 +73,7 @@
   var items = {
     'theme': {
       localStorage: 'tablerTheme',
-      default: 'light'
+      default: 'dark'
     },
     'menu-position': {
       localStorage: 'tablerMenuPosition',

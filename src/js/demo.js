@@ -1,6 +1,6 @@
 // Setting items
 const items = {
-	'theme': { localStorage: 'tablerTheme', default: 'light' },
+	'theme': { localStorage: 'tablerTheme', default: 'dark' },
 	'menu-position': { localStorage: 'tablerMenuPosition', default: 'top' },
 	'menu-behavior': { localStorage: 'tablerMenuBehavior', default: 'sticky' },
 	'container-layout': { localStorage: 'tablerContainerLayout', default: 'boxed' }
@@ -9,8 +9,8 @@ const items = {
 // Theme config
 const config = {}
 for (const [key, params] of Object.entries(items)) {
-   const lsParams = localStorage.getItem(params.localStorage)
-   config[key] = lsParams ? lsParams : params.default
+	const lsParams = localStorage.getItem(params.localStorage)
+	config[key] = lsParams ? lsParams : params.default
 }
 
 // Parse url params
