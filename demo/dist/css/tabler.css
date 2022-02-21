@@ -51,8 +51,8 @@
   --tblr-white-rgb: 255, 255, 255;
   --tblr-black-rgb: 0, 0, 0;
   --tblr-body-color-rgb: 30, 41, 59;
-  --tblr-body-bg-rgb: 250, 251, 252;
-  --tblr-font-sans-serif: Inter,   -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+  --tblr-body-bg-rgb: 245, 247, 251;
+  --tblr-font-sans-serif:    -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
   --tblr-font-monospace:  Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   --tblr-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --tblr-body-font-family: var(--tblr-font-sans-serif);
@@ -60,7 +60,7 @@
   --tblr-body-font-weight: 400;
   --tblr-body-line-height: 1.4285714286;
   --tblr-body-color: #1e293b;
-  --tblr-body-bg: #fafbfc;
+  --tblr-body-bg: #f5f7fb;
 }
 
 *,
@@ -550,7 +550,7 @@ progress {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fafbfc;
+  background-color: #f5f7fb;
   border: 1px solid #cbd5e1;
   border-radius: 4px;
   max-width: 100%;
@@ -2537,10 +2537,10 @@ textarea.form-control-lg {
   outline: 0;
 }
 .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fafbfc, 0 0 0 0.25rem rgba(32, 107, 196, 0.25);
+  box-shadow: 0 0 0 1px #f5f7fb, 0 0 0 0.25rem rgba(32, 107, 196, 0.25);
 }
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fafbfc, 0 0 0 0.25rem rgba(32, 107, 196, 0.25);
+  box-shadow: 0 0 0 1px #f5f7fb, 0 0 0 0.25rem rgba(32, 107, 196, 0.25);
 }
 .form-range::-moz-focus-outer {
   border: 0;
@@ -3288,12 +3288,12 @@ textarea.form-control-lg {
 .dropdown-item:hover, .dropdown-item:focus {
   color: inherit;
   text-decoration: none;
-  background-color: rgba(98, 105, 118, 0.06);
+  background-color: rgba(98, 105, 118, 0.04);
 }
 .dropdown-item.active, .dropdown-item:active {
   color: #206bc4;
   text-decoration: none;
-  background-color: rgba(32, 107, 196, 0.06);
+  background-color: rgba(32, 107, 196, 0.04);
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #64748b;
@@ -3334,7 +3334,7 @@ textarea.form-control-lg {
 }
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #206bc4;
-  background-color: rgba(32, 107, 196, 0.06);
+  background-color: rgba(32, 107, 196, 0.04);
 }
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
   color: #64748b;
@@ -3496,8 +3496,8 @@ textarea.form-control-lg {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #334155;
-  background-color: #fafbfc;
-  border-color: #cbd5e1 #cbd5e1 #fafbfc;
+  background-color: #f5f7fb;
+  border-color: #cbd5e1 #cbd5e1 #f5f7fb;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -3513,7 +3513,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #206bc4;
-  background-color: rgba(32, 107, 196, 0.06);
+  background-color: rgba(32, 107, 196, 0.04);
 }
 
 .nav-fill > .nav-link,
@@ -4536,7 +4536,7 @@ textarea.form-control-lg {
   z-index: 1;
   color: inherit;
   text-decoration: none;
-  background-color: #f1f5f9;
+  background-color: rgba(98, 105, 118, 0.04);
 }
 .list-group-item-action:active {
   color: #1e293b;
@@ -4566,9 +4566,9 @@ textarea.form-control-lg {
 }
 .list-group-item.active {
   z-index: 2;
-  color: #ffffff;
-  background-color: #206bc4;
-  border-color: #206bc4;
+  color: inherit;
+  background-color: rgba(32, 107, 196, 0.04);
+  border-color: #e6e7e9;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -11051,41 +11051,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 300;
-  src: local(""), url("../fonts/inter-v7-latin-ext_latin-300.woff2") format("woff2"), url("../fonts/inter-v7-latin-ext_latin-300.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: local(""), url("../fonts/inter-v7-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/inter-v7-latin-ext_latin-regular.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 500;
-  src: local(""), url("../fonts/inter-v7-latin-ext_latin-500.woff2") format("woff2"), url("../fonts/inter-v7-latin-ext_latin-500.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 600;
-  src: local(""), url("../fonts/inter-v7-latin-ext_latin-600.woff2") format("woff2"), url("../fonts/inter-v7-latin-ext_latin-600.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: local(""), url("../fonts/inter-v7-latin-ext_latin-700.woff2") format("woff2"), url("../fonts/inter-v7-latin-ext_latin-700.woff") format("woff");
-}
 :root {
   font-size: 16px;
   height: 100%;
@@ -13709,7 +13674,7 @@ a.avatar {
 
 .page-cover ~ * .page-avatar {
   margin-top: calc(calc(-1 * calc(var(--tblr-avatar-size) * .5)) - 1.25rem);
-  box-shadow: 0 0 0 0.25rem #fafbfc;
+  box-shadow: 0 0 0 0.25rem #f5f7fb;
 }
 
 .badge {
@@ -14259,7 +14224,7 @@ a.badge {
 }
 .btn-action:hover, .btn-action.show {
   color: #1e293b;
-  background: #fafbfc;
+  background: #f5f7fb;
 }
 .btn-action.show {
   color: #206bc4;
@@ -14515,7 +14480,7 @@ a.card:hover {
 }
 .card-btn:hover {
   text-decoration: none;
-  background: rgba(32, 107, 196, 0.06);
+  background: rgba(32, 107, 196, 0.04);
 }
 .card-btn + .card-btn {
   border-left: 1px solid var(--tblr-border-color);
@@ -16199,7 +16164,7 @@ Form switch
     display: block;
     width: 4px;
     content: "";
-    background-color: #fafbfc;
+    background-color: #f5f7fb;
   }
   .list-timeline:not(.list-timeline-simple) > li {
     z-index: 2;
@@ -16236,7 +16201,7 @@ Form switch
 .list-group-transparent .list-group-item.active {
   font-weight: 600;
   color: inherit;
-  background: rgba(32, 107, 196, 0.06);
+  background: rgba(32, 107, 196, 0.04);
 }
 .list-group-transparent .list-group-item.active .icon {
   color: inherit;
